@@ -235,3 +235,41 @@ input:focus {
   object-fit: cover;
   object-position: center;
 }
+
+.button {
+  font-weight: 700;
+  font-size: inherit;
+  height: 34px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.button:hover {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.button:active {
+  background: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  align-self:flex-end;
+}
+
+.more-button {
+  width: 100%;
+  margin-top: 30px;
+}
