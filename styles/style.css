@@ -75,6 +75,7 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 .result__video {
@@ -125,6 +126,7 @@ ol {
   outline: none;
   width: 225px;
   height: 27px;
+  cursor: pointer;
 }
 
 .search-form__textfield::placeholder {
@@ -161,6 +163,7 @@ input:focus {
   width: 100%;
   height: 100%;
   opacity: 0;
+  cursor: pointer;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
@@ -206,6 +209,7 @@ input:focus {
 }
 
 .content__card-link {
+  cursor: pointer;
   text-decoration: none;
   color: inherit;
   display: block;
@@ -270,6 +274,7 @@ input:focus {
   color: #fff;
   border: 1px solid #fff;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:hover {
