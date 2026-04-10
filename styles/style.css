@@ -94,6 +94,7 @@ ol {
 }
 
 .search-form__fieldset-title {
+  margin-bottom: 5px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -240,7 +241,7 @@ input:focus {
 
 .content__video-card-description-container {
   flex-grow: 1;
-  max-width: 196px;
+  max-width: 192px;
 }
 
 .content__video-card-title {
@@ -269,6 +270,7 @@ input:focus {
 }
 
 .button {
+  font-family: inherit;
   font-weight: 700;
   font-size: inherit;
   height: 34px;
