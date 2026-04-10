@@ -27,7 +27,6 @@ ol {
   list-style: none;
 }
 
-/* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -191,8 +190,6 @@ input:focus {
   height: 298px;
   margin-top: 23px;
   overflow-y: auto;
-  /* TODO: в макете 26px, по факту подходит 23px */
-  /* margin-top: 26px; */
 }
 
 .content__list {
