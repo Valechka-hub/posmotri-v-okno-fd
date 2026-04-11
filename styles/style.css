@@ -27,6 +27,10 @@ ol {
   list-style: none;
 }
 
+input {
+  appearance: none;
+}
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
@@ -104,7 +108,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 0.94;
@@ -126,7 +130,6 @@ ol {
   font-family: inherit;
   font-size: inherit;
   background-color: transparent;
-  cursor: pointer;
   appearance: none;
 }
 
@@ -220,11 +223,8 @@ input:focus {
   text-decoration-skip-ink: none;
 }
 
-.content__card-link_current {
-  background-color: transparent;
-}
-
-.content__card-link_current:active {
+.content__card-link_current,
+.content__card-link:active {
   background-color: #545050;
 }
 
@@ -237,14 +237,19 @@ input:focus {
 }
 
 .content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
+  gap: 6px;
   max-width: 192px;
 }
 
 .content__video-card-title {
   overflow: hidden;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
+  line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -301,6 +306,7 @@ input:focus {
 }
 
 .more-button {
-  width: 100%;
+  width: calc(100% - 4px);
+  margin: 0 2px 2px;
   margin-top: 30px;
 }
